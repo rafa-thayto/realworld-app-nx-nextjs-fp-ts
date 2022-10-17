@@ -3,8 +3,8 @@ import Link from 'next/link'
 export const Footer = () => (
   <footer>
     <div className="container">
-      <Link href="/" className="logo-font">
-        conduit
+      <Link href="/" passHref>
+        <a className="logo-font">conduit</a>
       </Link>
       <span className="attribution">
         An interactive learning project from{' '}
